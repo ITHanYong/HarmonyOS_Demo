@@ -1,0 +1,154 @@
+{
+  "ohos-module-Demo20240615Entry": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/src/main",
+        "RESOURCES_PATH": [
+          "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/build/default/cache/default/default@CompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/build/default/cache/default/default@CompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/build/default/intermediates/hap_metadata/default/output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      },
+      "ohosTest": {
+        "SOURCE_ROOT": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/src/ohosTest",
+        "RESOURCES_PATH": [
+          "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/src/ohosTest/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/build/default/outputs/ohosTest",
+          "INTERMEDIA_PATH": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/build/default/intermediates/loader_out/ohosTest",
+          "JS_LITE_ASSETS_PATH": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/build/default/intermediates/loader_out_lite/ohosTest",
+          "RES_PATH": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/build/default/intermediates/res/ohosTest",
+          "RES_PROFILE_PATH": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/build/default/intermediates/res/ohosTest/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/build/default/intermediates/loader/ohosTest/loader.json",
+          "MANIFEST_JSON": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/build/default/intermediates/manifest/ohosTest",
+          "OUTPUT_METADATA_JSON": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry/build/default/intermediates/hap_metadata/ohosTest/output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    }
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/build",
+    "BUNDLE_NAME": "com.example.demo20240615",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/build/outputs/default"
+    },
+    "MODULES": [
+      {
+        "name": "Demo20240615Entry",
+        "srcPath": "/Users/han/DevEcoStudioProjects/HarmonyOS_Demo/Demo20240615Entry",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ]
+      }
+    ],
+    "PROFILE_OPT": {
+      "app": {
+        "signingConfigs": [],
+        "products": [
+          {
+            "name": "default",
+            "signingConfig": "default",
+            "compatibleSdkVersion": "5.0.0(12)",
+            "runtimeOS": "HarmonyOS"
+          }
+        ],
+        "buildModeSet": [
+          {
+            "name": "debug"
+          },
+          {
+            "name": "release"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "name": "Demo20240615Entry",
+          "srcPath": "./Demo20240615Entry",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false
+    }
+  },
+  "version": 1
+}

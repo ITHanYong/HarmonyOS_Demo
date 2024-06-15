@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "Demo20240615EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "Demo20240615EntryAbility_label",
+      "value": "label"
+    }
+  ]
+}

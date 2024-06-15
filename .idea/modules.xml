@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Demo20240615Entry/Demo20240615Entry.iml" filepath="$PROJECT_DIR$/.idea/modules/Demo20240615Entry/Demo20240615Entry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HarmonyOS_Demo.iml" filepath="$PROJECT_DIR$/.idea/modules/HarmonyOS_Demo.iml" />
+    </modules>
+  </component>
+</project>
